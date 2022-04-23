@@ -50,9 +50,9 @@ From the root of the repo:
 Setting up simple_google_tts
 ----------------------------
 1) As per the instructions from [this link] (https://github.com/alexylem/jarvis/issues/129#issuecomment-248072872), download each of the following files on your Linux potato:
-    - [libttspico-data] (http://ftp.fr.debian.org/debian/pool/non-free/s/svox/libttspico-data_1.0+git20130326-3_all.deb)
-    - [libttspico0_1.0] (http://ftp.fr.debian.org/debian/pool/non-free/s/svox/libttspico0_1.0+git20130326-3_armhf.deb)
-    - [libttspico-utils] (http://ftp.fr.debian.org/debian/pool/non-free/s/svox/libttspico-utils_1.0+git20130326-3_armhf.deb)
+    - [libttspico-data](http://ftp.fr.debian.org/debian/pool/non-free/s/svox/libttspico-data_1.0+git20130326-3_all.deb)
+    - [libttspico0_1.0](http://ftp.fr.debian.org/debian/pool/non-free/s/svox/libttspico0_1.0+git20130326-3_armhf.deb)
+    - [libttspico-utils](http://ftp.fr.debian.org/debian/pool/non-free/s/svox/libttspico-utils_1.0+git20130326-3_armhf.deb)
 
 2) And following the same instructions, install each of the packages onto your Pi:
 
