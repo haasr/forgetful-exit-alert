@@ -17,15 +17,19 @@ Installing Node:
 (Yes this is an old Node version because I am copying from an old README. Security does not matter on this thing).
 
 Download archive:
+    
     wget https://nodejs.org/dist/v12.18.3/node-v12.18.3-linux-armv7l.tar.gz
 
 Extract it:
+    
     tar -xf node-v12.18.3-linux-armv7l.tar.gz
 
 Copy it:
+    
     cp -r node-v12.18.3-linux-armv7l/* /usr/local/
 
 Check it:
+    
     node --version
     npm --version
 
