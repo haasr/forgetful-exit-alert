@@ -56,28 +56,26 @@ Setting up simple_google_tts
 
 2) And following the same instructions, install each of the packages onto your Pi:
 
-    sudo dpkg -i libttspico-data_1.0+git20130326-3_all.deb
-    sudo dpkg -i libttspico0_1.0+git20130326-3_armhf.deb
-    sudo dpkg -i libttspico-utils_1.0+git20130326-3_armhf.deb
+        sudo dpkg -i libttspico-data_1.0+git20130326-3_all.deb
+        sudo dpkg -i libttspico0_1.0+git20130326-3_armhf.deb
+        sudo dpkg -i libttspico-utils_1.0+git20130326-3_armhf.deb
 
 3) If git is not installed, first, did you seriously download a ZIP file instead of clone this repo? Anyway, you will need to install it:
 
-    sudo apt install git
+        sudo apt install git
 
 4) As instructed in the [simple_google_tts readme](https://github.com/glutanimate/simple-google-tts), run the following command:
 
-    sudo apt-get install xsel libnotify-bin libttspico0 libttspico-utils libttspico-data libwww-perl libwww-mechanize-perl libhtml-tree-perl sox libsox-fmt-mp3
+        sudo apt-get install xsel libnotify-bin libttspico0 libttspico-utils libttspico-data libwww-perl libwww-mechanize-perl libhtml-tree-perl sox libsox-fmt-mp3
 
 5) Clone the repo into your home directory and then open ~/.bashrc:
 
-    cd /home/pi; git clone https://github.com/Glutanimate/simple-google-tts.git
-    nano .bashrc
+        cd /home/pi; git clone https://github.com/Glutanimate/simple-google-tts.git
+        nano .bashrc
 
-| 6) On a new line, at the end of .bashrc, add the following:
+6) On a new line, at the end of .bashrc, add the following:
 
-.. code:: bash
-
-    export PATH="$PATH:`pwd`/simple-google-tts"
+        export PATH="$PATH:`pwd`/simple-google-tts"
 
 
 Execute the code
