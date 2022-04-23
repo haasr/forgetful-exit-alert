@@ -1,0 +1,32 @@
+{
+  "name": "forgetful-exit-alert",
+  "version": "1.0.0",
+  "description": "Code to remind me to check for my ID card, wallet, etc. when I open the front door.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haasr/forgetful-exit-alert.git"
+  },
+  "keywords": [
+    "reminder",
+    "alert",
+    "gpio",
+    "circuit",
+    "simple",
+    "tts",
+    "text-to-speech"
+  ],
+  "author": "Ryan Haas (haasrr@etsu.edu)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haasr/forgetful-exit-alert/issues"
+  },
+  "homepage": "https://github.com/haasr/forgetful-exit-alert#readme",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "onoff": "^6.0.3"
+  }
+}
